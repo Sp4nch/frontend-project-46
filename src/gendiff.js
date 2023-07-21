@@ -3,6 +3,8 @@ import { readFileSync } from 'node:fs';
 import path from 'path';
 import _ from 'lodash';
 
+// test
+
 export default (path1, path2) => {
   const fileOne = readFileSync(path.resolve(cwd(), path1), 'utf-8').trim();
   const fileTwo = readFileSync(path.resolve(cwd(), path2), 'utf-8').trim();
